@@ -1,0 +1,46 @@
+body {
+	font-family: Verdana, sans-serif;
+	color: #222;
+	text-align: center;
+	background: url('img/background.jpg') no-repeat center fixed;
+}
+
+.container {
+	width: 90%;
+	max-width: 1200px;
+	margin: 0 auto;
+	background-color: rgba(255, 255, 255, 0.6);
+	padding: 2%;
+	border-radius: 1rem;
+}
+
+main {
+	min-height: 50vh;
+}
+
+h1 {
+	text-align: center;
+}
+
+.tirages {
+	display: flex;
+	justify-content: center;
+}
+
+#tirage1, #tirage2 {
+	width: 180px;
+	height: 320px;
+	margin: 10px;
+}
+
+button {
+	display: block;
+	margin: 1em auto;
+	width: 250px;
+	padding: 0.5em 1em;
+	font-size: 1.3rem;
+	border: 0;
+	border-radius: 6px;
+	color: white;
+	background-color: #555;
+}

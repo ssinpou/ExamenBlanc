@@ -1,0 +1,247 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Sunflower", sans-serif;
+  line-height: 1.5em;
+  color: #222;
+}
+
+.container {
+  width: 88%;
+  font-size: 1.2rem;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+figure {
+  margin: 0;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: dodgerblue;
+}
+
+a:hover {
+  color: darkblue;
+}
+
+hr {
+  border: solid 1px;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 500;
+  text-align: center;
+  line-height: normal;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #87C442;
+}
+
+h3 {
+  font-size: 2rem;
+  color: #87C442;
+}
+
+@media screen and (min-width: 1024px) {
+  h1 {
+    font-size: 3.2rem;
+  }
+}
+nav {
+  text-align: center;
+  display: flex;
+}
+nav a {
+  text-transform: uppercase;
+  text-align: center;
+  color: #87C442;
+}
+
+nav a:hover {
+  transition: 0.5s;
+  color: #41823B;
+}
+
+nav img:hover {
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+
+nav li {
+  list-style: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .navbar {
+    display: flex;
+  }
+  #navbar-collapse {
+    flex-basis: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+section {
+  padding: 2rem;
+}
+
+#hero {
+  background-image: url("../img/joli-gite.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #FFF;
+}
+
+#hero h2 {
+  color: #FFF;
+}
+
+#hero p {
+  font-size: 1.5rem;
+}
+
+@media screen and (min-width: 1024px) {
+  #hero {
+    background-image: url("../img/joli-gite-desktop.jpg");
+  }
+}
+#gite {
+  background: linear-gradient(#DEFABB, #F6FDED);
+  width: 100%;
+  text-align: center;
+}
+
+#gite li {
+  text-align: left;
+}
+
+#chambres article {
+  border: solid 1px;
+  border-color: #87C442;
+  border-radius: 5%;
+}
+
+#chambres {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+#chambres span {
+  color: #87C442;
+}
+
+#chambres li {
+  text-align: left;
+}
+
+iframe {
+  width: 100%;
+  height: 400px;
+}
+
+@media screen and (min-width: 768px) {
+  .flexarticle {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .leschambres {
+    flex-basis: 31%;
+    padding: 1rem;
+  }
+}
+#environs {
+  background: linear-gradient(#E9E9E9, #AED3F2);
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .flexenvirons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  #environs article {
+    flex-basis: 48%;
+  }
+  .flexcontact {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  #contact article {
+    flex-basis: 48%;
+  }
+  #contact aside {
+    flex-basis: 48%;
+  }
+}
+footer {
+  background-color: #41823B;
+  text-align: center;
+  color: #FFF;
+  width: 100%;
+  padding: 1%;
+}
+footer a {
+  color: #FFF;
+}
+
+.inputds {
+  width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+  .form-row {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: right;
+  }
+  label {
+    grid-column: 2/3;
+  }
+  .inputds {
+    grid-column: 3/3;
+  }
+}
+input {
+  border: solid 1px #ddd;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #87C442;
+  cursor: pointer;
+  text-align: center;
+  color: #FFF;
+  border: none;
+  border-radius: 5%;
+  font-size: 24px;
+  padding: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*# sourceMappingURL=style.css.map */
